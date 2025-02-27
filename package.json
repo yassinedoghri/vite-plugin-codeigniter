@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-codeigniter",
   "description": "A vite plugin to configure CodeIgniter4 apps. To be used in conjunction with https://github.com/yassinedoghri/codeigniter-vite.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
   "private": false,
   "license": "MIT",
