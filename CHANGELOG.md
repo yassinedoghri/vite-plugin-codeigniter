@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/yassinedoghri/vite-plugin-codeigniter/compare/v1.0.0...v1.0.1) (2025-02-28)
+
+### Bug Fixes
+
+- add console log after emptying assets directory
+  ([c954402](https://github.com/yassinedoghri/vite-plugin-codeigniter/commit/c95440291cfffc2b3f8c0a9297cbdc66bf24ccce))
+
 ## 1.0.0 (2025-02-28)
 
 ### Features
