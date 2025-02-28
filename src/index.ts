@@ -187,6 +187,8 @@ const emptyAssetsDir = (pluginOptions: PluginOptions): Plugin => ({
     );
 
     rmSync(pluginOptions.assetsDirAbs, { recursive: true, force: true });
+
+    console.log(`${pc.bold("Done!")}\n`);
   },
 });
 
