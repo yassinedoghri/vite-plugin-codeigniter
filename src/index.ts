@@ -92,7 +92,17 @@ const PluginOptionsSchema = z
         "Define image variants to be generated based on your static images.",
       ),
   })
-  .default({})
+  .default({
+    assetsDir: "assets",
+    emptyAssetsDir: true,
+    imageVariants: [],
+    jsDir: "js",
+    manifest: ".vite/manifest.json",
+    publicDir: "public",
+    resourcesDir: "resources",
+    staticDir: "static",
+    stylesDir: "styles",
+  })
   .transform((config) => ({
     ...config,
     publicDirAbs: absolutePathTo(config.publicDir),
