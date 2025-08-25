@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/yassinedoghri/vite-plugin-codeigniter/compare/v1.0.1...v2.0.0) (2025-08-25)
+
+### ⚠ BREAKING CHANGES
+
+- Requires Vite 7
+
+### build
+
+- set vite 7 as peer dependency + udpate all dependencies to latest
+  ([426cf39](https://github.com/yassinedoghri/vite-plugin-codeigniter/commit/426cf39da96e232b71480628b627227214a5c463))
+
 ## [1.0.1](https://github.com/yassinedoghri/vite-plugin-codeigniter/compare/v1.0.0...v1.0.1) (2025-02-28)
 
 ### Bug Fixes
